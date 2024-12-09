@@ -285,7 +285,7 @@ namespace Hotel_Management_System.Controllers
         {
             checkIfExist();
             createEmptyFile();
-            var file = new FileInfo(@"C:\Users\Ali Asar\Desktop\Hotel Report\Report.xlsx");
+            var file = new FileInfo(@"C:\Users\MerQyan\Desktop\Hotel Report\Report.xlsx");
             ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
             using (ExcelPackage excel = new ExcelPackage(file))
             {
@@ -299,7 +299,7 @@ namespace Hotel_Management_System.Controllers
                 sda.Fill(dt);
                 int count = dt.Rows.Count;
                 sheet.Cells.LoadFromDataTable(dt,true);
-                FileInfo excelFile = new FileInfo(@"C:\Users\Ali Asar\Desktop\Hotel Report\Report.xlsx");
+                FileInfo excelFile = new FileInfo(@"C:\Users\MerQyan\Desktop\Hotel Report\Report.xlsx");
                 excel.SaveAs(excelFile);
                 MessageBox.Show("Excel file is downloaded on desktop.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
@@ -310,13 +310,13 @@ namespace Hotel_Management_System.Controllers
             ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
             var app = new Microsoft.Office.Interop.Excel.Application();
             var wb = app.Workbooks.Add();
-            wb.SaveAs(@"C:\Users\Ali Asar\Desktop\Hotel Report\Report.xlsx");
+            wb.SaveAs(@"C:\Users\MerQyan\Desktop\Hotel Report\Report.xlsx");
             wb.Close();
         }
 
         private void checkIfExist()
         {
-            FileInfo file = new FileInfo(@"C:\Users\Ali Asar\Desktop\Hotel Report\Report.xlsx");
+            FileInfo file = new FileInfo(@"C:\Users\MerQyan\Desktop\Hotel Report\Report.xlsx");
             if (file.Exists)
             {
                 Console.WriteLine("Yes");

@@ -25,7 +25,7 @@ namespace Hotel_Management_System.Screens
         private void setBgImage()
         {
             int i = getRandomNum();
-            Image myimage = new Bitmap(@"C:\Users\Ali Asar\source\repos\Hotel Management System\Hotel Management System\Icons\hotel"+i+".jpg");
+            Image myimage = new Bitmap(@"C:\Users\MerQyan\Documents\Workspace\C#\Hotel_Management\Hotel-Management-System\Hotel Management System\Icons\hotel" + i+".jpg");
             bgPanel.BackgroundImage = myimage;
         }
 

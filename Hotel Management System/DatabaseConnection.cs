@@ -13,7 +13,7 @@ namespace Hotel_Management_System
     {
         public SqlConnection getConnection()
         {
-            String connectionString = "Data Source=DESKTOP-9GED25C;Initial Catalog=HotelManagementSystem;Integrated Security=True";
+            String connectionString = "Data Source=DESKTOP-SH78B81;Initial Catalog=HotelManagementSystem;Integrated Security=True";
             SqlConnection connection = new SqlConnection(connectionString);
             return connection;
         }
