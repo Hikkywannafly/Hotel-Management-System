@@ -172,8 +172,8 @@ namespace Hotel_Management_System
 
         private void changeVisibile(object sender, EventArgs e)
         {
-            Image myimage1 = new Bitmap(@"C:\Users\Ali Asar\source\repos\Hotel Management System\Hotel Management System\Icons\eyevisoff.png");
-            Image myimage2 = new Bitmap(@"C:\Users\Ali Asar\source\repos\Hotel Management System\Hotel Management System\Icons\eyevisible.png");
+            Image myimage1 = new Bitmap(@"C:\Users\MerQyan\Documents\Workspace\C#\Hotel_Management\Hotel-Management-System\Hotel Management System\Icons\eyevisoff.png");
+            Image myimage2 = new Bitmap(@"C:\Users\MerQyan\Documents\Workspace\C#\Hotel_Management\Hotel-Management-System\Hotel Management System\Icons\eyevisible.png");
 
             if (passwordTextField.UseSystemPasswordChar == true)
             {
