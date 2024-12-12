@@ -48,6 +48,7 @@
             this.bgPanel.Name = "bgPanel";
             this.bgPanel.Size = new System.Drawing.Size(505, 359);
             this.bgPanel.TabIndex = 13;
+            this.bgPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.bgPanel_Paint);
             // 
             // webLabel
             // 
@@ -68,6 +69,7 @@
             this.label5.Size = new System.Drawing.Size(90, 16);
             this.label5.TabIndex = 11;
             this.label5.Text = "Contact Us: ";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label4
             // 

@@ -76,5 +76,15 @@ namespace Hotel_Management_System.Screens
         {
 
         }
+
+        private void bgPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

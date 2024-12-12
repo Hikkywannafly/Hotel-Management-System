@@ -111,13 +111,14 @@ namespace Hotel_Management_System.Controllers
             {
                 int bId = int.Parse(bookingIdCMBox.Text);
                 int gId = getGuestIdS(bId);
+                int hotelID = Statics.hotelIdTKN;
                 query = "UPDATE Hotels.Guests SET Status = 'Not Reserved' WHERE GuestId = " + gId;
                 dc.setData(query, "");
                 int a = getRoomId(bId);
                 query = "UPDATE Rooms.Room SET Available = 'Yes' WHERE RoomId = " + a;
                 dc.setData(query, "");
                 delServiceUsed(bId);
-                query = "INSERT INTO Bookings.Payments (PaymentStatus, PaymentType, PaymentAmount, BookingId) VALUES ('" + statusField.Text + "', '" + paymentTypeCmbox.Text + "', " + amountField.Text + ", " + bookingIdCMBox.Text +")";
+                query = "INSERT INTO Bookings.Payments (PaymentStatus, PaymentType, PaymentAmount, BookingId, HotelId) VALUES ('" + statusField.Text + "', '" + paymentTypeCmbox.Text + "', " + amountField.Text + ", " + bookingIdCMBox.Text + ", " + hotelID + ")";
                 dc.setData(query, "Checkout Data inserted successfully!");
                 changeBookingStatus(bId);
                 clearFields();

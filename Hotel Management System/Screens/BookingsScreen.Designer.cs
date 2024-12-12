@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BookingsScreen));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.label4 = new System.Windows.Forms.Label();
@@ -78,17 +78,13 @@
             // guna2CircleButton1
             // 
             this.guna2CircleButton1.BorderThickness = 2;
-            this.guna2CircleButton1.CheckedState.Parent = this.guna2CircleButton1;
-            this.guna2CircleButton1.CustomImages.Parent = this.guna2CircleButton1;
             this.guna2CircleButton1.FillColor = System.Drawing.Color.Transparent;
             this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton1.HoverState.Parent = this.guna2CircleButton1;
             this.guna2CircleButton1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButton1.Image")));
             this.guna2CircleButton1.Location = new System.Drawing.Point(980, 54);
             this.guna2CircleButton1.Name = "guna2CircleButton1";
             this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton1.ShadowDecoration.Parent = this.guna2CircleButton1;
             this.guna2CircleButton1.Size = new System.Drawing.Size(40, 35);
             this.guna2CircleButton1.TabIndex = 46;
             this.guna2CircleButton1.Click += new System.EventHandler(this.guna2CircleButton1_Click);
@@ -111,21 +107,17 @@
             this.bookingIdField.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.bookingIdField.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.bookingIdField.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.bookingIdField.DisabledState.Parent = this.bookingIdField;
             this.bookingIdField.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.bookingIdField.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.bookingIdField.FocusedState.Parent = this.bookingIdField;
-            this.bookingIdField.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bookingIdField.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.bookingIdField.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.bookingIdField.HoverState.Parent = this.bookingIdField;
             this.bookingIdField.Location = new System.Drawing.Point(877, 54);
-            this.bookingIdField.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bookingIdField.Margin = new System.Windows.Forms.Padding(4);
             this.bookingIdField.Name = "bookingIdField";
             this.bookingIdField.PasswordChar = '\0';
             this.bookingIdField.PlaceholderText = "";
             this.bookingIdField.ReadOnly = true;
             this.bookingIdField.SelectedText = "";
-            this.bookingIdField.ShadowDecoration.Parent = this.bookingIdField;
             this.bookingIdField.Size = new System.Drawing.Size(95, 36);
             this.bookingIdField.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.bookingIdField.TabIndex = 43;
@@ -148,15 +140,11 @@
             this.guestIdCMBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.guestIdCMBox.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guestIdCMBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guestIdCMBox.FocusedState.Parent = this.guestIdCMBox;
-            this.guestIdCMBox.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.guestIdCMBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.guestIdCMBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guestIdCMBox.HoverState.Parent = this.guestIdCMBox;
             this.guestIdCMBox.ItemHeight = 30;
-            this.guestIdCMBox.ItemsAppearance.Parent = this.guestIdCMBox;
             this.guestIdCMBox.Location = new System.Drawing.Point(776, 121);
             this.guestIdCMBox.Name = "guestIdCMBox";
-            this.guestIdCMBox.ShadowDecoration.Parent = this.guestIdCMBox;
             this.guestIdCMBox.Size = new System.Drawing.Size(148, 36);
             this.guestIdCMBox.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.guestIdCMBox.TabIndex = 66;
@@ -197,39 +185,37 @@
             // 
             this.checkinPicker.BackColor = System.Drawing.Color.Transparent;
             this.checkinPicker.BorderRadius = 15;
-            this.checkinPicker.CheckedState.Parent = this.checkinPicker;
+            this.checkinPicker.Checked = true;
             this.checkinPicker.CustomFormat = "yyyy-MM-dd";
             this.checkinPicker.FillColor = System.Drawing.Color.DimGray;
+            this.checkinPicker.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.checkinPicker.ForeColor = System.Drawing.Color.Gainsboro;
             this.checkinPicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.checkinPicker.HoverState.Parent = this.checkinPicker;
             this.checkinPicker.Location = new System.Drawing.Point(772, 189);
             this.checkinPicker.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.checkinPicker.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.checkinPicker.Name = "checkinPicker";
-            this.checkinPicker.ShadowDecoration.Parent = this.checkinPicker;
             this.checkinPicker.Size = new System.Drawing.Size(152, 36);
             this.checkinPicker.TabIndex = 70;
-            this.checkinPicker.Value = new System.DateTime(2022, 5, 26, 1, 51, 32, 432);
+            this.checkinPicker.Value = new System.DateTime(2024, 5, 26, 1, 51, 0, 0);
             // 
             // checkoutPicker
             // 
             this.checkoutPicker.BackColor = System.Drawing.Color.Transparent;
             this.checkoutPicker.BorderRadius = 15;
-            this.checkoutPicker.CheckedState.Parent = this.checkoutPicker;
+            this.checkoutPicker.Checked = true;
             this.checkoutPicker.CustomFormat = "yyyy-MM-dd";
             this.checkoutPicker.FillColor = System.Drawing.Color.DimGray;
+            this.checkoutPicker.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.checkoutPicker.ForeColor = System.Drawing.Color.Gainsboro;
             this.checkoutPicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.checkoutPicker.HoverState.Parent = this.checkoutPicker;
             this.checkoutPicker.Location = new System.Drawing.Point(947, 191);
             this.checkoutPicker.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.checkoutPicker.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.checkoutPicker.Name = "checkoutPicker";
-            this.checkoutPicker.ShadowDecoration.Parent = this.checkoutPicker;
             this.checkoutPicker.Size = new System.Drawing.Size(159, 36);
             this.checkoutPicker.TabIndex = 71;
-            this.checkoutPicker.Value = new System.DateTime(2022, 5, 26, 1, 51, 32, 432);
+            this.checkoutPicker.Value = new System.DateTime(2024, 5, 26, 1, 51, 0, 0);
             // 
             // label8
             // 
@@ -249,21 +235,17 @@
             this.amountField.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.amountField.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.amountField.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.amountField.DisabledState.Parent = this.amountField;
             this.amountField.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.amountField.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.amountField.FocusedState.Parent = this.amountField;
-            this.amountField.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.amountField.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.amountField.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.amountField.HoverState.Parent = this.amountField;
             this.amountField.Location = new System.Drawing.Point(948, 405);
-            this.amountField.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.amountField.Margin = new System.Windows.Forms.Padding(4);
             this.amountField.Name = "amountField";
             this.amountField.PasswordChar = '\0';
             this.amountField.PlaceholderText = "";
             this.amountField.ReadOnly = true;
             this.amountField.SelectedText = "";
-            this.amountField.ShadowDecoration.Parent = this.amountField;
             this.amountField.Size = new System.Drawing.Size(130, 32);
             this.amountField.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.amountField.TabIndex = 75;
@@ -284,15 +266,11 @@
             this.searchButton.BackColor = System.Drawing.Color.Transparent;
             this.searchButton.BorderRadius = 20;
             this.searchButton.BorderThickness = 1;
-            this.searchButton.CheckedState.Parent = this.searchButton;
-            this.searchButton.CustomImages.Parent = this.searchButton;
-            this.searchButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(35)))), ((int)(((byte)(67)))));
+            this.searchButton.FillColor = System.Drawing.Color.LightSalmon;
             this.searchButton.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchButton.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.searchButton.HoverState.Parent = this.searchButton;
             this.searchButton.Location = new System.Drawing.Point(816, 500);
             this.searchButton.Name = "searchButton";
-            this.searchButton.ShadowDecoration.Parent = this.searchButton;
             this.searchButton.Size = new System.Drawing.Size(96, 45);
             this.searchButton.TabIndex = 83;
             this.searchButton.Text = "CLEAR";
@@ -303,16 +281,12 @@
             this.updateButton.BackColor = System.Drawing.Color.Transparent;
             this.updateButton.BorderRadius = 20;
             this.updateButton.BorderThickness = 1;
-            this.updateButton.CheckedState.Parent = this.updateButton;
-            this.updateButton.CustomImages.Parent = this.updateButton;
-            this.updateButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(35)))), ((int)(((byte)(67)))));
+            this.updateButton.FillColor = System.Drawing.Color.LightSalmon;
             this.updateButton.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.updateButton.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.updateButton.HoverState.Parent = this.updateButton;
             this.updateButton.Location = new System.Drawing.Point(948, 449);
             this.updateButton.Name = "updateButton";
-            this.updateButton.ShadowDecoration.Parent = this.updateButton;
-            this.updateButton.Size = new System.Drawing.Size(96, 45);
+            this.updateButton.Size = new System.Drawing.Size(107, 45);
             this.updateButton.TabIndex = 82;
             this.updateButton.Text = "UPDATE";
             this.updateButton.Click += new System.EventHandler(this.updateButton_Click);
@@ -322,16 +296,12 @@
             this.deleteButton.BackColor = System.Drawing.Color.Transparent;
             this.deleteButton.BorderRadius = 20;
             this.deleteButton.BorderThickness = 1;
-            this.deleteButton.CheckedState.Parent = this.deleteButton;
-            this.deleteButton.CustomImages.Parent = this.deleteButton;
-            this.deleteButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(35)))), ((int)(((byte)(67)))));
+            this.deleteButton.FillColor = System.Drawing.Color.LightSalmon;
             this.deleteButton.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.deleteButton.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.deleteButton.HoverState.Parent = this.deleteButton;
             this.deleteButton.Location = new System.Drawing.Point(948, 500);
             this.deleteButton.Name = "deleteButton";
-            this.deleteButton.ShadowDecoration.Parent = this.deleteButton;
-            this.deleteButton.Size = new System.Drawing.Size(96, 45);
+            this.deleteButton.Size = new System.Drawing.Size(107, 45);
             this.deleteButton.TabIndex = 81;
             this.deleteButton.Text = "DELETE";
             this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
@@ -341,15 +311,11 @@
             this.addButton.BackColor = System.Drawing.Color.Transparent;
             this.addButton.BorderRadius = 20;
             this.addButton.BorderThickness = 1;
-            this.addButton.CheckedState.Parent = this.addButton;
-            this.addButton.CustomImages.Parent = this.addButton;
-            this.addButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(35)))), ((int)(((byte)(67)))));
+            this.addButton.FillColor = System.Drawing.Color.LightSalmon;
             this.addButton.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addButton.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.addButton.HoverState.Parent = this.addButton;
             this.addButton.Location = new System.Drawing.Point(816, 449);
             this.addButton.Name = "addButton";
-            this.addButton.ShadowDecoration.Parent = this.addButton;
             this.addButton.Size = new System.Drawing.Size(96, 45);
             this.addButton.TabIndex = 80;
             this.addButton.Text = "ADD";
@@ -358,7 +324,7 @@
             // checkListBox
             // 
             this.checkListBox.BackColor = System.Drawing.SystemColors.Control;
-            this.checkListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.checkListBox.FormattingEnabled = true;
             this.checkListBox.Location = new System.Drawing.Point(775, 255);
             this.checkListBox.Name = "checkListBox";
@@ -383,15 +349,11 @@
             this.promoIdCMBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.promoIdCMBox.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.promoIdCMBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.promoIdCMBox.FocusedState.Parent = this.promoIdCMBox;
-            this.promoIdCMBox.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.promoIdCMBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.promoIdCMBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.promoIdCMBox.HoverState.Parent = this.promoIdCMBox;
             this.promoIdCMBox.ItemHeight = 30;
-            this.promoIdCMBox.ItemsAppearance.Parent = this.promoIdCMBox;
             this.promoIdCMBox.Location = new System.Drawing.Point(771, 401);
             this.promoIdCMBox.Name = "promoIdCMBox";
-            this.promoIdCMBox.ShadowDecoration.Parent = this.promoIdCMBox;
             this.promoIdCMBox.Size = new System.Drawing.Size(136, 36);
             this.promoIdCMBox.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.promoIdCMBox.TabIndex = 87;
@@ -403,15 +365,11 @@
             this.roomIdCMBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.roomIdCMBox.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.roomIdCMBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.roomIdCMBox.FocusedState.Parent = this.roomIdCMBox;
-            this.roomIdCMBox.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.roomIdCMBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.roomIdCMBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.roomIdCMBox.HoverState.Parent = this.roomIdCMBox;
             this.roomIdCMBox.ItemHeight = 30;
-            this.roomIdCMBox.ItemsAppearance.Parent = this.roomIdCMBox;
             this.roomIdCMBox.Location = new System.Drawing.Point(947, 337);
             this.roomIdCMBox.Name = "roomIdCMBox";
-            this.roomIdCMBox.ShadowDecoration.Parent = this.roomIdCMBox;
             this.roomIdCMBox.Size = new System.Drawing.Size(136, 36);
             this.roomIdCMBox.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.roomIdCMBox.TabIndex = 89;
@@ -434,15 +392,11 @@
             this.roomTypeCMBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.roomTypeCMBox.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.roomTypeCMBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.roomTypeCMBox.FocusedState.Parent = this.roomTypeCMBox;
-            this.roomTypeCMBox.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.roomTypeCMBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.roomTypeCMBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.roomTypeCMBox.HoverState.Parent = this.roomTypeCMBox;
             this.roomTypeCMBox.ItemHeight = 30;
-            this.roomTypeCMBox.ItemsAppearance.Parent = this.roomTypeCMBox;
             this.roomTypeCMBox.Location = new System.Drawing.Point(947, 266);
             this.roomTypeCMBox.Name = "roomTypeCMBox";
-            this.roomTypeCMBox.ShadowDecoration.Parent = this.roomTypeCMBox;
             this.roomTypeCMBox.Size = new System.Drawing.Size(136, 36);
             this.roomTypeCMBox.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.roomTypeCMBox.TabIndex = 91;
@@ -462,58 +416,47 @@
             // guna2CircleButton3
             // 
             this.guna2CircleButton3.BorderThickness = 2;
-            this.guna2CircleButton3.CheckedState.Parent = this.guna2CircleButton3;
-            this.guna2CircleButton3.CustomImages.Parent = this.guna2CircleButton3;
             this.guna2CircleButton3.FillColor = System.Drawing.Color.Transparent;
             this.guna2CircleButton3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2CircleButton3.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton3.HoverState.Parent = this.guna2CircleButton3;
             this.guna2CircleButton3.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButton3.Image")));
             this.guna2CircleButton3.Location = new System.Drawing.Point(1081, 399);
             this.guna2CircleButton3.Name = "guna2CircleButton3";
             this.guna2CircleButton3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton3.ShadowDecoration.Parent = this.guna2CircleButton3;
             this.guna2CircleButton3.Size = new System.Drawing.Size(40, 38);
             this.guna2CircleButton3.TabIndex = 92;
             this.guna2CircleButton3.Click += new System.EventHandler(this.guna2CircleButton3_Click);
             // 
             // bookingTable
             // 
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            this.bookingTable.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
-            this.bookingTable.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.bookingTable.BackgroundColor = System.Drawing.Color.White;
-            this.bookingTable.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.bookingTable.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.bookingTable.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(35)))), ((int)(((byte)(67)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bookingTable.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.bookingTable.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(35)))), ((int)(((byte)(67)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bookingTable.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.bookingTable.ColumnHeadersHeight = 40;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.bookingTable.DefaultCellStyle = dataGridViewCellStyle6;
-            this.bookingTable.EnableHeadersVisualStyles = false;
+            this.bookingTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.bookingTable.DefaultCellStyle = dataGridViewCellStyle3;
             this.bookingTable.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.bookingTable.Location = new System.Drawing.Point(32, 54);
             this.bookingTable.Name = "bookingTable";
             this.bookingTable.ReadOnly = true;
             this.bookingTable.RowHeadersVisible = false;
             this.bookingTable.RowTemplate.Height = 35;
-            this.bookingTable.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.bookingTable.Size = new System.Drawing.Size(718, 498);
             this.bookingTable.TabIndex = 115;
-            this.bookingTable.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
             this.bookingTable.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.bookingTable.ThemeStyle.AlternatingRowsStyle.Font = null;
             this.bookingTable.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
@@ -544,19 +487,15 @@
             this.filterCMBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.filterCMBox.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.filterCMBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.filterCMBox.FocusedState.Parent = this.filterCMBox;
-            this.filterCMBox.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.filterCMBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.filterCMBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.filterCMBox.HoverState.Parent = this.filterCMBox;
             this.filterCMBox.ItemHeight = 30;
             this.filterCMBox.Items.AddRange(new object[] {
             "All",
             "Checkin",
             "Checkout"});
-            this.filterCMBox.ItemsAppearance.Parent = this.filterCMBox;
             this.filterCMBox.Location = new System.Drawing.Point(352, 12);
             this.filterCMBox.Name = "filterCMBox";
-            this.filterCMBox.ShadowDecoration.Parent = this.filterCMBox;
             this.filterCMBox.Size = new System.Drawing.Size(136, 36);
             this.filterCMBox.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.filterCMBox.TabIndex = 116;

@@ -56,13 +56,10 @@
             this.passwordTextField.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.passwordTextField.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.passwordTextField.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.passwordTextField.DisabledState.Parent = this.passwordTextField;
             this.passwordTextField.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.passwordTextField.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.passwordTextField.FocusedState.Parent = this.passwordTextField;
             this.passwordTextField.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.passwordTextField.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.passwordTextField.HoverState.Parent = this.passwordTextField;
             this.passwordTextField.IconLeft = ((System.Drawing.Image)(resources.GetObject("passwordTextField.IconLeft")));
             this.passwordTextField.Location = new System.Drawing.Point(118, 169);
             this.passwordTextField.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -71,7 +68,6 @@
             this.passwordTextField.PlaceholderText = "";
             this.passwordTextField.ReadOnly = true;
             this.passwordTextField.SelectedText = "";
-            this.passwordTextField.ShadowDecoration.Parent = this.passwordTextField;
             this.passwordTextField.Size = new System.Drawing.Size(218, 39);
             this.passwordTextField.TabIndex = 45;
             this.passwordTextField.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -92,15 +88,11 @@
             this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
             this.guna2Button1.BorderColor = System.Drawing.Color.Transparent;
             this.guna2Button1.BorderRadius = 25;
-            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
-            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
-            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(35)))), ((int)(((byte)(67)))));
+            this.guna2Button1.FillColor = System.Drawing.Color.LightSalmon;
             this.guna2Button1.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.Parent = this.guna2Button1;
             this.guna2Button1.Location = new System.Drawing.Point(133, 245);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
             this.guna2Button1.Size = new System.Drawing.Size(180, 45);
             this.guna2Button1.TabIndex = 43;
             this.guna2Button1.Text = "OK";
@@ -116,13 +108,10 @@
             this.usernameTextField.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.usernameTextField.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.usernameTextField.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.usernameTextField.DisabledState.Parent = this.usernameTextField;
             this.usernameTextField.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.usernameTextField.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.usernameTextField.FocusedState.Parent = this.usernameTextField;
             this.usernameTextField.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.usernameTextField.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.usernameTextField.HoverState.Parent = this.usernameTextField;
             this.usernameTextField.IconLeft = ((System.Drawing.Image)(resources.GetObject("usernameTextField.IconLeft")));
             this.usernameTextField.Location = new System.Drawing.Point(118, 120);
             this.usernameTextField.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -131,7 +120,6 @@
             this.usernameTextField.PlaceholderText = "";
             this.usernameTextField.ReadOnly = true;
             this.usernameTextField.SelectedText = "";
-            this.usernameTextField.ShadowDecoration.Parent = this.usernameTextField;
             this.usernameTextField.Size = new System.Drawing.Size(218, 39);
             this.usernameTextField.TabIndex = 42;
             this.usernameTextField.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -146,6 +134,7 @@
             this.label1.Size = new System.Drawing.Size(207, 27);
             this.label1.TabIndex = 41;
             this.label1.Text = "Account Details";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // ShowDefaultScreen
             // 
